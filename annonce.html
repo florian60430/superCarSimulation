@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HVAC Template">
+    <meta name="keywords" content="HVAC, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>superCar</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href=" css/adminStyle.css">
+    
+    <link rel="stylesheet" href=" css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href=" css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href=" css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href=" css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href=" css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href=" css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href=" css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href=" css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href=" css/style.css" type="text/css">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href=" css/loginForm.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src=" js/loginForm.js"></script>
+
+</head>
+
+<div class="offcanvas-menu-overlay"></div>
+<div class="offcanvas-menu-wrapper">
+    <div class="offcanvas__logo">
+        <a href="index.html"><img src=" img/logo.png" alt=""></a>
+    </div>
+    <div id="mobile-menu-wrap"></div>
+    <ul class="offcanvas__widget__add">
+        <li><i class="fa fa-clock-o"></i> Horaire d'ouverture :
+            <div><b>08h00 - 18h00</b>
+            </div>
+        </li>
+        <li><i class="fa fa-envelope-o"></i> florian.wantelez@groupe-esigelec.org</li>
+    </ul>
+    <div class="offcanvas__phone__num">
+        <i class="fa fa-phone"></i>
+        <span>(+33) 06 00 00 00 00</span>
+    </div>
+    <div class="offcanvas__social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-google"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+</div>
+<!-- Offcanvas Menu End -->
+
+<!-- Header Section Begin -->
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <ul class="header__top__widget">
+                        <li><i class="fa fa-clock-o"></i> Horaire d'ouverture : 08h00 - 18h00</li>
+                        <li><i class="fa fa-envelope-o"></i> florian.wantelez@groupe-esigelec.org</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5">
+                    <div class="header__top__right">
+                        <div class="header__top__phone">
+                            <i class="fa fa-phone"></i>
+                            <span>(+33) 06 00 00 00 00</span>
+                        </div>
+                        <div class="header__top__social">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-google"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="header__logo">
+                    <a href="index.html"><img src=" img/logo.png" alt=""></a>
+                    <div class="logo-user">
+                        <a href="loginForm.html"> <img src=" img/clients/user.png" alt="logo user"> </a>
+                        <!-- redirige sur la page inscription/connexion-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <div class="header__nav">
+                    <nav class="header__menu">
+                        <ul>
+                            <li id="accueil" class=""><a href=" index.html ">Accueil</a></li>
+                            <li id="annonce" class=""><a href=" annonce.html ">Annonces</a></li>
+                            <li id="apropos" class=""><a href=" apropos.html ">A Propos</a></li>
+                            <li id="contact" class=""><a href=" contact.html ">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class=" header__nav__widget ">
+                        <!-- <div class=" header__nav__widget__btn ">
+                                <a href=" # "><i class=" fa fa-cart-plus "></i></a>
+                            </div> -->
+                        <a href=" loginForm.html " class=" primary-btn ">Se connecter</a>
+                    </div>
+                    <a href=" loginForm.html " class=" inscription "> Inscription </a>
+                </div>
+            </div>
+        </div>
+        <div class=" canvas__open ">
+            <span class=" fa fa-bars "></span>
+        </div>
+    </div>
+</header>
+
+
+<script>
+    function changeClassAccueil() {
+        document.getElementById('accueil').className = " active ";
+        document.getElementById('annonce').className = " ";
+        document.getElementById('apropos').className = " ";
+        document.getElementById('contact').className = " ";
+    }
+
+    function changeClassAnnonce() {
+        document.getElementById('accueil').className = " ";
+        document.getElementById('annonce').className = " active ";
+        document.getElementById('apropos').className = " ";
+        document.getElementById('contact').className = " ";
+    }
+
+    function changeClassApropos() {
+        document.getElementById('accueil').className = " ";
+        document.getElementById('annonce').className = " ";
+        document.getElementById('apropos').className = " active ";
+        document.getElementById('contact').className = " ";
+    }
+
+    function changeClassContact() {
+        document.getElementById('accueil').className = " ";
+        document.getElementById('annonce').className = " ";
+        document.getElementById('apropos').className = " ";
+        document.getElementById('contact').className = " active ";
+    }
+</script>
+<body>
+    <!-- Breadcrumb End -->
+    <div class="breadcrumb-option set-bg" data-setbg=" img/breadcrumb-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>La liste des voitures en vente</h2>
+                        <div class="breadcrumb__links">
+                            <a href="./index.html"><i class="fa fa-home"></i> Accueil</a>
+                            <span>Annonce</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Begin -->
+
+    <!-- Car Section Begin -->
+    <section class="car spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="car__sidebar">
+                        <div class="car__search">
+                            <h5>Chercher une voiture</h5>
+                            <form action="#">
+                                <input type="text" placeholder="Rechercher...">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="car__filter">
+                            <h5>Filtrer</h5>
+                            <form action="#">
+                                <select>
+                                    <option data-display="Marque">Selectionnez une marque</option>
+                                    <option value="">Acura</option>
+                                    <option value="">Audi</option>
+                                    <option value="">Bentley</option>
+                                    <option value="">BMW</option>
+                                        <option value="">Bugatti</option>
+                                </select>
+                                <select>
+                                    <option data-display="Modèle">Selectionnez Modèle</option>
+                                    <option value="">Q3</option>
+                                    <option value="">A4 </option>
+                                    <option value="">AVENTADOR</option>
+                                </select>
+                                <select>
+                                    <option value="">Style</option>
+                                    <option value="">Option 1</option>
+                                    <option value="">Option 2</option>
+                                </select>
+                                <select>
+                                    <option value="">Condition</option>
+                                    <option value="">Première main</option>
+                                    <option value="">Seconde main</option>
+                                </select>
+                                <select>
+                                    <option value="">Transmission</option>
+                                    <option value="">Bluetooth</option>
+                                    <option value="">WiFi</option>
+                                </select>
+                                <select>
+                                    <option value="">Kilmoètrage</option>
+                                    <option value="">27</option>
+                                    <option value="">20</option>
+                                    <option value="">15</option>
+                                    <option value="">10</option>
+                                </select>
+                                <select>
+                                    <option value="">Moteur</option>
+                                    <option value="">BS3</option>
+                                    <option value="">BS4</option>
+                                    <option value="">BS5</option>
+                                    <option value="">BS6</option>
+                                </select>
+                                <select>
+                                    <option value="">Couleurs</option>
+                                    <option value="">Red</option>
+                                    <option value="">Blue</option>
+                                    <option value="">Black</option>
+                                    <option value="">Yellow</option>
+                                </select>
+                                <div class="Filtrer prix">
+                                    <p>Prix :</p>
+                                    <div class="price-range-wrap">
+                                        <div class="filter-price-range"></div>
+                                        <div class="range-slider">
+                                            <div class="price-input">
+                                                <input type="text" id="filterAmount">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="car__filter__btn">
+                                    <button type="submit" class="site-btn">Reinitialiser filtres</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="car__filter__option">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="car__filter__option__item">
+                                    <h6>Regarder sur la page</h6>
+                                    <select>
+                                        <option value="">9 Véhicules</option>
+                                        <option value="">15 Véhicules</option>
+                                        <option value="">20 Véhicules</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="car__filter__option__item car__filter__option__item--right">
+                                    <h6>Trier prix</h6>
+                                    <select>
+                                        <option value="">Prix: Decroissant</option>
+                                        <option value="">Prix: Croissant</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src=" img/cars/car-1.jpg" alt="">
+                                    <img src=" img/cars/car-8.jpg" alt="">
+                                    <img src=" img/cars/car-6.jpg" alt="">
+                                    <img src=" img/cars/car-3.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2016</div>
+                                        <h5><a href="#">Porsche cayenne turbo s</a></h5>
+                                        <ul>
+                                            <li><span>35,000</span> mi</li>
+                                            <li>Auto</li>
+                                            <li><span>700</span> hp</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option">A louer</span>
+                                        <h6>$218<span>/Month</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src=" img/cars/car-2.jpg" alt="">
+                                    <img src=" img/cars/car-8.jpg" alt="">
+                                    <img src=" img/cars/car-6.jpg" alt="">
+                                    <img src=" img/cars/car-4.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2020</div>
+                                        <h5><a href="#">Toyota camry asv50l-jeteku</a></h5>
+                                        <ul>
+                                            <li><span>35,000</span> mi</li>
+                                            <li>Auto</li>
+                                            <li><span>700</span> hp</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option sale">For Sale</span>
+                                        <h6>$73,900</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src=" img/cars/car-3.jpg" alt="">
+                                    <img src=" img/cars/car-8.jpg" alt="">
+                                    <img src=" img/cars/car-6.jpg" alt="">
+                                    <img src=" img/cars/car-5.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2017</div>
+                                        <h5><a href="#">Bmw s1000rr 2019 m</a></h5>
+                                        <ul>
+                                            <li><span>35,000</span> mi</li>
+                                            <li>Auto</li>
+                                            <li><span>700</span> hp</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option">For Rent</span>
+                                        <h6>$299<span>/Month</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src=" img/cars/car-5.jpg" alt="">
+                                    <img src=" img/cars/car-8.jpg" alt="">
+                                    <img src=" img/cars/car-7.jpg" alt="">
+                                    <img src=" img/cars/car-2.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2018</div>
+                                        <h5><a href="#">Audi q8 2020</a></h5>
+                                        <ul>
+                                            <li><span>35,000</span> mi</li>
+                                            <li>Auto</li>
+                                            <li><span>700</span> hp</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option">For Rent</span>
+                                        <h6>$319<span>/Month</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src=" img/cars/car-6.jpg" alt="">
+                                    <img src=" img/cars/car-8.jpg" alt="">
+                                    <img src=" img/cars/car-3.jpg" alt="">
+                                    <img src=" img/cars/car-1.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2016</div>
+                                        <h5><a href="#">Mustang shelby gt500</a></h5>
+                                        <ul>
+                                            <li><span>35,000</span> mi</li>
+                                            <li>Auto</li>
+                                            <li><span>700</span> hp</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option sale">For Sale</span>
+                                        <h6>$730,900</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src=" img/cars/car-4.jpg" alt="">
+                                    <img src=" img/cars/car-8.jpg" alt="">
+                                    <img src=" img/cars/car-2.jpg" alt="">
+                                    <img src=" img/cars/car-1.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2019</div>
+                                        <h5><a href="#">Lamborghini huracan evo</a></h5>
+                                        <ul>
+                                            <li><span>35,000</span> mi</li>
+                                            <li>Auto</li>
+                                            <li><span>700</span> hp</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option">For Rent</span>
+                                        <h6>$319<span>/Month</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src=" img/cars/car-7.jpg" alt="">
+                                    <img src=" img/cars/car-2.jpg" alt="">
+                                    <img src=" img/cars/car-4.jpg" alt="">
+                                    <img src=" img/cars/car-1.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2020</div>
+                                        <h5><a href="#">Lamborghini huracan evo</a></h5>
+                                        <ul>
+                                            <li><span>35,000</span> mi</li>
+                                            <li>Auto</li>
+                                            <li><span>700</span> hp</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option sale">For Sale</span>
+                                        <h6>$120,000</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src=" img/cars/car-8.jpg" alt="">
+                                    <img src=" img/cars/car-3.jpg" alt="">
+                                    <img src=" img/cars/car-5.jpg" alt="">
+                                    <img src=" img/cars/car-2.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2017</div>
+                                        <h5><a href="#">Porsche cayenne turbo s</a></h5>
+                                        <ul>
+                                            <li><span>35,000</span> mi</li>
+                                            <li>Auto</li>
+                                            <li><span>700</span> hp</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option">For Rent</span>
+                                        <h6>$319<span>/Month</span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src=" img/cars/car-8.jpg" alt="">
+                                    <img src=" img/cars/car-3.jpg" alt="">
+                                    <img src=" img/cars/car-5.jpg" alt="">
+                                    <img src=" img/cars/car-2.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2020</div>
+                                        <h5><a href="#">Toyota camry asv50l-jeteku</a></h5>
+                                        <ul>
+                                            <li><span>35,000</span> mi</li>
+                                            <li>Auto</li>
+                                            <li><span>700</span> hp</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option sale">For sale</span>
+                                        <h6>$73,900</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination__option">
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#"><span class="arrow_carrot-2right"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Car Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+</body>
+<!-- Footer Section Begin -->
+<footer class="footer set-bg" data-setbg=" img/footer-bg.jpg">
+    <div class="container">
+        <div class="footer__contact">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer__contact__title">
+                        <h2>Contactez nous maintenant!</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer__contact__option">
+                        <div class="option__item"><i class="fa fa-phone"></i> (+33) 06 00 00 00 00</div>
+                        <div class="option__item email"><i class="fa fa-envelope-o"></i> florian.wantelez@groupe-esigelec.org
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="#"><img src=" img/footer-logo.png" alt=""></a>
+                    </div>
+                    <p>Une question ? Envoyez-nous vos questions par mail ou venez nous voir directement en boutique ou appelez-nous au 06 27 28 27 28 27</p>
+                    <div class="footer__social">
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google"></i></a>
+                        <a href="#" class="skype"><i class="fa fa-skype"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-3">
+                <div class="footer__widget">
+                    <h5>Infomation</h5>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Achat</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Paiement</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Vente</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Retour</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3">
+                <div class="footer__widget">
+                    <h5>Catégorie</h5>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Hatchback</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Sedan</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> SUV</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Crossover</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer__brand">
+                    <h5>Top Marques</h5>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Abarth</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Acura</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Alfa Romeo</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Audi</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> BMW</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Chevrolet</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Ferrari</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Honda</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        <div class="footer__copyright__text">
+            <p>Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Tout droit reservé | La providence Amiens
+            </p>
+        </div>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<script src=" js/jquery-3.3.1.min.js"></script>
+<script src=" js/bootstrap.min.js"></script>
+<script src=" js/jquery.nice-select.min.js"></script>
+<script src=" js/jquery-ui.min.js"></script>
+<script src=" js/jquery.magnific-popup.min.js"></script>
+<script src=" js/mixitup.min.js"></script>
+<script src=" js/jquery.slicknav.js"></script>
+<script src=" js/owl.carousel.min.js"></script>
+<script src=" js/main.js"></script>
+
+</html>
+<script>
+    document.getElementById('accueil').className = "";
+    document.getElementById('annonce').className = "active";
+    document.getElementById('apropos').className = "";
+    document.getElementById('contact').className = "";
+</script>
